@@ -1,0 +1,36 @@
+.tab{
+    background-color: bisque;
+     border:2px solid brown
+}
+.paragraph__intro h1{
+         color:red;
+         background-color: black;
+}
+.paragraph__intro{
+    text-align: center;
+    font-size: medium;
+    font-weight: initial;
+    text-decoration:solid;
+}
+#paragraph__highlight{
+       background-color: #ffff99;
+       padding: 10px;
+       border:1px solid #cccccc;
+       text-align: left;
+}
+.paragraph_quote{
+       color:black;
+       background-color: lightgreen;
+       font-style: italic;
+       text-decoration:underline;
+       border:2px solid darkolivegreen
+       
+       
+}
+.paragraph__conlusion{
+    font-size:16px;
+    background-color: palevioletred;
+    color:black;
+    border:2px solid lightseagreen;
+    font-style:inherit;
+}

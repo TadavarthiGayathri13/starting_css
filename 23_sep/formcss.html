@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form using CSS and HTMl</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: rgb(23, 218, 153);
+            display:grid;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+        }
+        form{
+            background-color:pink;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0)
+        }
+        label{
+            color:#02263d;
+        }
+        input[type="submit"]:hover{
+            opacity: 70;
+        }
+   </style>
+</head>
+<body>
+    <form action="/register.js" method="get">
+        <label for="firstName">First Name:
+            <input type="text" name="firstName"placeholder="Isabel"id="firstName"required minlength="2"max=20>
+        </label><br>
+        <label for="lastName">Last Name:
+            <input type="text" name="lastName"placeholder="joe"id="lastName"required minlength="2"max=20 >
+        </label><br>
+        <label for="email">Email:
+            <input type="text" name="email"placeholder="Isabel@joe.com"id="email"required>
+        </label><br>
+        <label for="password">password
+        <input type="text" name="password" placeholder="********"  id="password"required min="8">
+        </label><br>
+        <label for="">Gender:
+            <input type="radio"id="male"name="gender">
+            <label for="male">Male</label>
+            <input type="radio"id="female"name="gender">
+            <label for="Female">Female</label>
+            <input type="radio"id="other"name="gender">
+            <label for="other">other</label><br>
+            <button type="Submit">Submit</button>
+    
+
+        
+
+        </label>
+
+
+
+        
+
+</body>
+</html>

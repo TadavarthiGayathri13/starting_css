@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet"href="ex2.css">  
+    <style>
+        .container{
+            background-color:aquamarine;
+            text-align: center;
+            font-size:medium;
+            font-style: italic;
+        }
+        .tab-content{
+            background-color: antiquewhite;
+        }
+        .tab-content h1{
+            color:brown;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Inline CSS -->
+    <div class="container">
+        <div class="container1" style="text-align: center ;font-style: italic; background-color: rgb(151, 101, 197);color: black;">
+            <h1 >About inline CSS</h1>
+            <p>Inline CSS is the technique to define the single element with the insert style sheet 
+                in an HTML document.The main advantage of inline CSS is you can quickly and easily 
+                insert CSS rules into an HTML page,which is useful for testing.There is no need to create 
+                an additional file.To apply styling in Javascript,use the style attribute.
+            </p>
+        </div>
+        <!-- internal CSS -->
+        <div class="tab-content">
+            <h1> About internal CSS</h1>
+            <p>Internl CSS is a form of using which you can add CSS to HTML documents.It helps to design the layout
+                of a single HTML web page and change the styles of a webpage within HTML code.It is defined in 
+                head section of the HTML page inside the style tag.
+            </p>
+        </div>
+        <!-- external CSS -->
+        <div class="content">
+        <h1>About external CSS</h1>
+        <p>External CSS involves placing the styles for your HTML documents in a separate CSS file.
+            this allows you to keep your HTML and CSS separate ,promoting a more organized and modular
+            approach to web development.
+        </p>
+    </div>
+</div>
+</body>
+</html>
